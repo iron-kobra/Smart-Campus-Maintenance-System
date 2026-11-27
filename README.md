@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Campus Maintenance
 
 A standalone campus maintenance system extracted from OptiCampus. The frontend is React with JavaScript and Vite; the API is Python/Flask; user accounts and maintenance tickets are stored in local MySQL.
@@ -78,3 +79,7 @@ On startup, existing image bytes in the MySQL `tickets.image_data` column are mi
 - `PATCH /api/tickets/<id>/status` (maintenance, limited to its department)
 
 The backend tests can be run from `backend` with `python -m unittest`.
+=======
+# Smart-Campus-Maintenance-System
+A campus maintenance reporting system where students can submit and track issues, maintenance staff manage department-specific requests, and admins oversee all reports. Built with React, Flask, and MySQL, with photo uploads stored on disk
+>>>>>>> 208c2e8c4d91107b6f5497584093f30c7f6b9dbf
